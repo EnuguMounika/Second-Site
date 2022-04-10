@@ -10,3 +10,11 @@ body {
 /* .root{
     primary-color:#D946EF
 } */
+/* container */
+.container{
+    padding:1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
