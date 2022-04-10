@@ -80,3 +80,23 @@ hr {
 .navigation .link-active{
     font-weight: bold;
 }
+
+/* Header */
+.logo{
+    padding:2rem;
+
+}
+.logo .logo-img{
+    max-width: 300px;
+    display: block;
+    margin:auto;
+}
+.logo .logo-heading{
+    text-align:center;
+    color:gray;
+    padding-top: 1rem;
+
+}
+.logo .logo-heading .logo-inverted{
+    color:var(--primary-color);
+}
