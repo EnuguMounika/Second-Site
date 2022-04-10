@@ -6,36 +6,51 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-hr{
-    margin:2rem 0rem;
+
+hr {
+    margin: 2rem 0rem;
 }
 
-:root{
-    --primary-color:#D946EF
-} 
+:root {
+    --primary-color: #D946EF
+}
 
 /* Container */
-.container{
-    padding:1rem;
+.container {
+    padding: 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 /* Links */
 
-.link{
+.link {
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
-.link-one{
+
+.link-one {
     background-color: var(--primary-color);
-    color:white;
-    border-radius:0.5rem;
+    color: white;
+    border-radius: 0.5rem;
 }
-.link-two{
-    color:var(--primary-color);
-    border-radius:0.5rem;
-    border:1px solid var(--primary-color);
+
+.link-two {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* Lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+.list-inline{
+    
+    display:inline;
+    padding:0rem 1rem;
 }
